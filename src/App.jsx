@@ -19,7 +19,7 @@ class App extends Component {
 
   updateWeather() {
     const { cityName } = this.state;
-    const URL = `http://localhost:5000/api/test`;
+    const URL = `https://dashboard.heroku.com/apps/gentle-meadow-41169/api/test`;
     const options = {
       cityName: cityName
     };
