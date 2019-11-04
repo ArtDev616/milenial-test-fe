@@ -72,6 +72,8 @@ class App extends Component {
     return (
       <div className="app-container">
         <div className="main-container">
+          <h2>This is used for front-end skill demonstration</h2>
+          <span>But please note that there is not much complexity for this project</span>
           {isLoading && <h3>Loading Weather...</h3>}
           {!isLoading && (
             <div className="top-section">
